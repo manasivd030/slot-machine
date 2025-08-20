@@ -8,104 +8,64 @@ All projects created in Snack are publicly available, so you can easily share th
 
 If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+# 🎰 Slot Machine Game (React Native + Expo)
 
-🎰 Slot Machine Game (React Native + Expo)
+This is a simple slot machine game built using React Native, Expo, and Tailwind styling (twrnc).
+The project was first created on Snack (https://snack.expo.dev) and later migrated to a local Expo CLI project.
 
-A simple slot machine game built with React Native, Expo, and Tailwind styling (twrnc).
-This project started as a prototype on Snack
- and was later migrated into a local Expo project with full GitHub support.
+## ✨ Features
+- 🎰 Slot machine grid (3x3) with animated spins
+- 🪙 Balance and betting system (increase/decrease bet, track winnings)
+- 🖼️ Custom image assets (a1.png to a5.png) used as slot symbols
+- 📱 Works on Web, Android, and iOS using Expo
+- ⚡ Quick prototyping on Snack and local development with Expo CLI
 
-✨ Features
+## 🚀 Getting Started
 
-🎨 UI with Tailwind (twrnc) for quick styling
+### ▶️ Run in Snack
+You can open this project in Snack to test it online:  
+(Add your Snack link here)
 
-🎰 3x3 Slot Machine grid with animated spins
+### 💻 Run Locally
+1. Clone or download this repository  
 
-🪙 Balance & Betting system (increase/decrease bet, track winnings)
+2. Install dependencies  
 
-🖼️ Custom assets (a1.png … a5.png) for slot symbols
+3. Start the Expo development server  
 
-📱 Runs on Web, Android, and iOS with Expo
+4. Press `w` to run in the browser, `a` for Android emulator, or `i` for iOS simulator  
 
-⚡ Quick prototyping on Snack, easy scaling with Expo CLI
+### 📱 Run on Device
+1. Install the Expo Go app from Play Store or App Store  
+2. Run `npx expo start` and scan the QR code with Expo Go  
+3. The app will run instantly on your device  
 
-🚀 Getting Started
-1. Run in Snack
+## 📂 Project Structure
+/assets  
+a1.png  
+a2.png  
+a3.png  
+a4.png  
+a5.png  
+App.js  
+package.json  
+README.md  
 
-Open the project in Snack to try it instantly:
-👉 Open in Snack
- (insert your Snack link here)
+- `App.js` contains the main game logic  
+- `assets/` contains images used for slot symbols  
 
-Write code directly in the browser.
+## 🖼️ Slot Icons
+![a1](./assets/a1.png)  
+![a2](./assets/a2.png)  
+![a3](./assets/a3.png)  
+![a4](./assets/a4.png)  
+![a5](./assets/a5.png)  
 
-Add dependencies in the Snack editor.
+## 🛠️ Built With
+- ⚛️ [React Native](https://reactnative.dev/)  
+- 📦 [Expo](https://expo.dev/)  
+- 🎨 [twrnc (Tailwind for React Native)](https://github.com/jaredh159/tailwind-react-native-classnames)  
 
-Upload assets via the Assets panel.
-
-Preview live on Web, Android, iOS tabs.
-
-2. Run Locally with Expo CLI
-
-Clone or download this repo, then:
-
-# Install dependencies
-npm install
-
-# Start Expo dev server
-npx expo start
-
-
-Press w to open Web in browser.
-
-Press a to open in Android Emulator.
-
-Press i to open in iOS Simulator (macOS only).
-
-3. Run on a Real Device
-
-Install Expo Go from Google Play
- or App Store
-.
-
-Run npx expo start → scan the QR code in Expo Go.
-
-App loads instantly on your phone (with hot reload).
-
-📂 Project Structure
-/assets
-  ├── a1.png
-  ├── a2.png
-  ├── a3.png
-  ├── a4.png
-  └── a5.png
-App.js
-package.json
-README.md
-
-
-App.js → main slot machine game logic.
-
-assets/ → images for slot symbols.
-
-📸 Screenshots
-
-Add screenshots from Web/Android/iOS here
-
-🛠️ Built With
-
-React Native
-
-Expo
-
-twrnc (Tailwind in React Native)
-
-📌 Notes
-
-On Web: expo-sharing isn’t supported (PDFs/Sharing will only show file URI).
-
-On Android: ensure image assets are lowercase and <Image> has explicit width + height.
-
-📜 License
-
-This project is open source under the MIT License.
+## 📝 Notes
+- On Web, `expo-sharing` is not supported, so sharing PDF will only show the file URI  
+- On Android, make sure asset file names are lowercase and images have explicit width and height set  
